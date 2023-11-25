@@ -37,7 +37,7 @@ console.log(reversedHacker2);
 
 // Lexicographic order
 
-if(hacker1.localeCompare(hacker2)=== -1){
+if(hacker1.localeCompare.toUpperCase(hacker2.toLocaleUpperCase)=== -1){
     console.log(`The driver's name goes first.`)
 }
 else if(hacker1.localeCompare(hacker2)=== 1){
